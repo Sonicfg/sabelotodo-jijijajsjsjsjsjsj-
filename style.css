@@ -1,0 +1,14 @@
+body{
+    background: linear-gradient( white,pink, purple);
+    width: 100%;
+    height: 100vh;
+    color: black;
+}
+.heading{
+   width: 80%;
+    font-size: 22px;
+}
+#objetoDetectado, #precisionDetectada, .objetos{
+    color: orange;
+    font-weight: bolder;
+}
