@@ -13,7 +13,7 @@ function capturarImagen() {
         document.getElementById("resultado").innerHTML = '<img id="imagenCapturada" src="' + data_uri + '">';
     });
 }
-reconocerObjeto = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/ttVkvtNAq/model.json", interlistador);
+reconocerObjeto = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/kD6xUSwJS/model.json", interlistador);
 
 function interlistador() {
     console.log("listo, modelo cargado🎅");
